@@ -1,0 +1,566 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image:url(./images/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    width: 100%;
+    height: 110px;
+    background-color: cornsilk;
+    padding: 10px 80px;
+    border: none;
+    box-shadow:10px 10px 50px honeydew;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.menu{
+    float:right;
+    display: flex;  
+}
+
+.menu li{
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    line-height: 60px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(44,44,44);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.menu li:hover{
+    background-color:rgb(178, 199, 236);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.menu li a:hover{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.main img{
+    width: 110px;
+    height: 95px;
+    float: left;
+    margin-left: -60px;
+}
+
+#banner{
+    width: 100%;
+    height: 368px;
+    border: none;
+    background-image: url(Images/large-school-building-scene.zip);
+    background-repeat: no-repeat; 
+    background-size: center;
+}
+
+#banner h1{
+    color:lightblue ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    background-color:cornsilk;
+}
+
+#banner h2{
+    color:wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#banner button{
+    margin-left: 50%;
+    width: 140px;
+    height: 30px;
+    color: black;
+    background-color:cornsilk;
+    border: none;
+    border-radius: 15px;
+}
+
+#banner button:hover{
+    text-transform: uppercase;
+    background-color: lightblue;
+    width: 160px;
+    align-items: center;
+}
+
+.content{
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+.content p{
+    color: rgb(44,44,44);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#ad1,#ad3{
+    border:1px solid white;
+    width: 300px;
+    height: 200px;
+}
+
+#ad2,#ad4{
+    border:none;
+    width: 300px;
+    height: 200px;
+}
+
+#ad1{
+    float: right;
+    margin-right: 80px;
+}
+
+#ad2{
+    float: right;
+    margin-right: 0px;
+}
+
+#ad3{
+    float: right;
+    margin-right: 10px;
+}
+
+#ad4{
+    float: right;
+    margin-right: 0px;
+}
+
+#ad4 img,#ad2 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#ad1 h2,#ad3 h2{
+    color:skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#ad1 p,#ad3 p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.newsboard{
+    border:none;
+    width: 100%;
+    height: 450px;
+    margin-top: -1px;
+    background:linear-gradient(to bottom, cornsilk,skyblue);
+}
+
+.newsboard h1{
+    text-align: center;
+    color:skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+#news1, #news2{
+    border: none;
+    width: 500px;
+    height: 180px;
+}
+
+#news1{
+    float: right;
+    margin-right: 80px;
+}
+
+#news2{
+    margin-left: 80px;
+}
+
+#news1 img,#news2 img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-top: 30pt;
+    margin-left: 20px;
+}
+
+#news1 h6, #news2 h6{
+    margin-right: -300px;
+    color:skyblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -100px;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+#news1 p, #news2 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 135px;
+    margin-top: -30px;
+}
+
+#news1 a, #news2 a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    color:cornsilk;
+}
+
+#button{
+    margin-left: 45%;
+    margin-top: 45px;
+    width: 150px;
+    height: 50px;
+    color:skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.eventboard{
+    border: none;
+    width: 100%;
+    height: 280px;
+    margin-top: -19px;
+}
+
+.eventboard h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color:skyblue;
+}
+
+.eventboard #event1,#event2,#event3{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: cornsilk;
+}
+
+#event1{
+    float: right;
+    margin-right: 100px;
+}
+
+#event2{
+    float: right;
+    margin-right: 350px;
+}
+
+#event3{
+    margin-left: 100px;
+}
+
+.eventboard h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#event1info,#event2info,#event3info{
+    border: none;
+    width: 250px;
+    height: 50px;
+    margin-top: -50px;
+    
+}
+
+#event1info{
+    float: right;
+    margin-right: 5%;
+    height: 100px;
+
+}
+
+#event2info{
+    float: right;
+    margin-right: 15%;
+    height: 100px;
+}
+
+#event3info{
+    float: left;
+    margin-left: 4%;
+    height: 100px;
+}
+
+#event1info p,#event2info p,#event3info p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: skyblue;
+    text-align: center;
+}
+
+#SeeAllEvents{
+    margin-left: 45%;
+    margin-top: 45px;
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    color:cornsilk;
+    background-color:skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    border: none;
+    width: 100%;
+    height: 300px;
+    background-color: cornsilk;
+    background-image: url(images/32058.jpg);
+}
+
+#contactinfo,#faq,#socialmedia,#newsletter{
+    border: none;
+    width: 335px;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+#contactinfo{
+    float: right;
+}
+
+#faq{
+    float: right;
+    margin-left: -2px;
+}
+
+#faq p{
+    line-height: 0.1px;
+}
+
+#socialmedia{
+    float: right;
+    margin-right: 2px;
+}
+
+#copyright{
+    width: 100%;
+    height: 79px;
+    border: none;
+    color: skyblue;
+}
+
+#newsletter input{
+    width: 200px;
+    height: 30px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    margin-right: 6px;
+}
+
+#newsletter button{
+    width: 200px;
+    height: 30px;
+    color: #030;
+    border-radius: 5px;
+    border: none;
+}
+
+#copyright p{
+    text-align: center;
+    color: blue;
+
+}
+#aboutdiv{
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 7% auto;
+    background-color: white;
+
+}
+#aboutdiv h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: blue;
+}
+#aboutdiv p{
+    color: skyblue;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+}
+.formdiv{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 5% auto;
+    background-color:rgba(0,0,0,.70);
+    border-radius: 15px;
+
+}
+.formdiv h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: blue;
+    margin-left: 1%;
+}
+.formdiv label{
+    margin-left: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+.formdiv input{
+    margin-left: 30%;
+    width: 168px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+}
+#btnsubmit{
+    height: 40px;
+    margin-top: 10px;
+    background-color: skyblue;
+    color: white;
+    font-size: 17px;
+}
+.formdiv p, a{
+    font-size: 20px;
+    color:blue;
+    text-decoration: none;
+    text-align: center;
+}
+.formdiv a:hover{
+    text-decoration: underline;
+}
+#registerdiv{
+    width: 500px;
+    height: 762px;
+    border: 1px solid black;
+    margin:7% auto;
+    background-color:rgba(0,0,0,.70);
+    border-radius: 15px;
+    color: blue;
+    margin-top: 1%;
+}
+
+#registerdiv h1{
+    text-align: center;
+}
+
+#Gallarydiv{
+    width: 700px;
+    height: 600px;
+    border: 1px solid black;
+    margin:7% auto;
+    border-radius: 15px;
+}
+#contactdiv{
+    width: 600px;
+    height: 550px;
+    border: 1px solid black;
+    margin:7% auto;
+    border-radius: 15px;
+    background-color: green;
+    color: blue;
+    text-align: center;
+}
+
+#contactdiv h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: blue;
+    margin-left: 1%;
+}
+#contactdiv label{
+    /* margin-left: ; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+#contactdiv input{
+    /* margin-left: ; */
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    border: none; 
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.tablediv table,tr,th,td{
+    border: 1px solid black;
+    margin:0 auto;
+    border-collapse: collapse;
+}
+.tablediv table,tr,th,td{
+    width: 700px;
+    height: 50px;
+}
+.col1{
+    background-color: aquamarine;
+}
+.col2{
+    background-color: red;
+}
+.col3{
+    background-color: yellow;
+}
+.col4{
+    background-color: brown;
+}
+.col5{
+    background-color: violet;
+}
+.golddiv{
+    width: 500px;
+    height: 900px;
+    border: 1px solid black;
+    margin:7% auto;
+    background-color:rgba(0,0,0,.70);
+    border-radius: 15px;
+    color: blue;
+    margin-top: 1%;
+}
+.table2div table,tr,th,td{
+    border: 1px solid black;
+    margin:0 auto;
+    border-collapse: collapse;
+    width: 650px;
+    height: 40px;
+    
+}

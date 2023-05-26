@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body style="background-image: url(images/pic2.jpg);">
+            <!---navigation bar starts-->
+    <div class="container">
+        <div class="main">
+            <div class="logo"> <a href="index.html"><img src="Images/download.jpg" alt="School Logo"></a>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallary.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <!--navigation bar ends here-->
+     <div id="registerdiv">
+        <form action="" mothod="post">
+            <h1>REGISTER</h1>
+
+            <label for="FirstName">FirstName</label>
+            <input type="text" name="FirstName">
+
+             <br><br>
+            <label for="LastName">Last Name</label>
+            <input type="text" name="LastName">
+
+            <br><br>
+            <label for="DOB">Date of Birth</label>
+            <input type="date" name="DOB" title="DD-MM-YYYY">
+
+             <br><br>
+            <label for="Address">Address</label>
+            <input type="text" name="Address">
+
+            <br><br>
+            <label for="Gender">Gender: </label>
+
+            <br><br>
+            <input type="Radio" name="Male" value="Male">
+            <label for="Male">Male</label>
+
+            <br><br>
+            <label for="Female">Female</label>
+            <input type="Radio" name="Female" value="Female">
+            
+            <br><br>
+            <label for="">Course</label>
+            <select name="" id="">
+                <option value="" disabled selected>---select course---</option>>Software Engineering</option> 
+                <option value="">Database Technology</option>
+                <option value="">Graphic Designing</option>
+                <option value="">Data Science</option>
+                <option value="">It at Work Place</option>
+
+                <br><br>
+                <label for="">Phone</label>
+                <input type="Tel" name="Phone">
+
+                <label for="">Education</label><br><br>
+               
+                <input type="Checkbox" name="Chk1" id="Checkbox1">
+                <label for="Checkbox1">BECE</label>
+
+                <input type="Checkbox" name="chk1" id="Checkbox2">
+                <label for="Checkbox2">WASSCE</label>
+
+                <input type="Checkbox" name="chk1" id="Checkbox3">
+                <label for="Checkbox3">Tertiary</label>
+                <br><br>
+
+                <label for="">Semester</label>
+                <input type="Number" name="Num" min="1" max="3">
+
+                <label for="">Fav Color</label>
+                <input type="Color" name="Color1" value="Red">
+
+                <br><br>
+                <label for="">Interest</label>
+
+                <label for="Range1">Sport</label>
+                <input type="Range" name=Range1  min="0" max="100" value="10">
+
+                <br><br>
+                <label for="Range2">Music</label>
+                <input type="Range" name="Range2" min="0" max="100" value="10">
+
+                <br><br>
+                <label for="Email">Email</label>
+                <input type="Email" name="Email">
+
+                <label for="Pass">Password</label>
+                <input type="Password" name="Pass" id="Pass">
+
+                <br><br>
+                <label for="Bio">Short Bio</label>
+                <textarea name="Bio" id="bio" cols="30" rows10></textarea>
+
+                <br><br>
+                <label for="File1">Add Student Photo</label>
+                <input type="File" name="File1">
+
+                <br><br>
+                <input type="Submit" name="Submit" value="Register">
+                <input type="Reset" name="Reset1" id="" value="Reset">
+                <p><a href="login.html" target="_blank">RETURN LOGIN?SIGN UP</a></p>
+            </select>
+            
+            
+
+        </form>
+     </div>
+    </body>
+</html>
